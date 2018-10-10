@@ -1,6 +1,7 @@
 import junit.framework.Assert;
 import org.junit.Test;
 import peoplecomp.Instructor;
+import peoplecomp.Person;
 import peoplecomp.Student;
 import peoplecomp.Teacher;
 
@@ -18,5 +19,17 @@ public class InstructorTest {
     @Test
     public void lectureTest(){
         Assert.assertTrue(instructor instanceof Teacher);
+    }
+
+    @Test
+    public void teacherTest(){
+        Instructor instructor = new Instructor(1, "Bill");
+        Assert.assertTrue(instructor instanceof Teacher);
+    }
+
+    @Test
+    public void testInheritance(){
+        Instructor instructor = new Instructor(9, "eddie");
+        Assert.assertTrue(instructor instanceof Person);
     }
 }

@@ -25,7 +25,7 @@ public class PersonTest {
     }
 
     @Test
-    public void getIdTest(){
+    public void testConstructor(){
         Person person = new Person(20, "Bob");
 
         long expected = 20;

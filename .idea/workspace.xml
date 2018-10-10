@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e16efc18-ee8a-4d0b-bc6b-2ba92b19bff8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/peoplecomp/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peoplecomp/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/peoplecomp/Learner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peoplecomp/Learner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/peoplecomp/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peoplecomp/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/peoplecomp/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peoplecomp/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/peoplecomp/PersonCompTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peoplecomp/PersonCompTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/peoplecomp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peoplecomp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstructorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,23 +27,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2344" />
+          <entry key="java" value="2572" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2344" />
+          <entry key="JAVA" value="2572" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -60,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PeopleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="255">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#778#779#0" expanded="true" />
@@ -75,10 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LearnerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="287">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,12 +82,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/peoplecomp/People.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="350">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TeacherTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LearnerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/InstructorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,16 +151,16 @@
         <option value="$PROJECT_DIR$/src/main/java/peoplecomp/Teacher.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/peoplecomp/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/peoplecomp/PersonCompTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/peoplecomp/Student.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/peoplecomp/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/peoplecomp/Instructor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/InstructorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PeopleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LearnerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TeacherTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/InstructorTest.java" />
       </list>
     </option>
   </component>
@@ -212,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539189390225" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539192416175" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../phonebook" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -229,7 +262,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LearnerTest.learnerTest">
+  <component name="RunManager" selected="JUnit.InstructorTest">
+    <configuration name="InstructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="peoplecomp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InstructorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LearnerTest.learnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="peoplecomp" />
       <option name="PACKAGE_NAME" value="" />
@@ -240,21 +281,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeopleTest.getArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentTest.learnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="peoplecomp" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PeopleTest" />
-      <option name="METHOD_NAME" value="getArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="METHOD_NAME" value="learnerTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeopleTest.removeAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentTest.testInheritance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="peoplecomp" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PeopleTest" />
-      <option name="METHOD_NAME" value="removeAllTest" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="METHOD_NAME" value="testInheritance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -268,30 +309,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherTest.teacherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="peoplecomp" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TeacherTest" />
-      <option name="METHOD_NAME" value="teacherTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.PeopleTest.getArrayTest" />
-      <item itemvalue="JUnit.PeopleTest.removeAllTest" />
-      <item itemvalue="JUnit.TeacherTest.teacherTest" />
       <item itemvalue="JUnit.TeacherTest" />
       <item itemvalue="JUnit.LearnerTest.learnerTest" />
+      <item itemvalue="JUnit.StudentTest.testInheritance" />
+      <item itemvalue="JUnit.StudentTest.learnerTest" />
+      <item itemvalue="JUnit.InstructorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InstructorTest" />
+        <item itemvalue="JUnit.StudentTest.learnerTest" />
+        <item itemvalue="JUnit.StudentTest.testInheritance" />
         <item itemvalue="JUnit.LearnerTest.learnerTest" />
         <item itemvalue="JUnit.TeacherTest" />
-        <item itemvalue="JUnit.TeacherTest.teacherTest" />
-        <item itemvalue="JUnit.PeopleTest.removeAllTest" />
-        <item itemvalue="JUnit.PeopleTest.getArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -307,20 +338,11 @@
       <updated>1539016165706</updated>
       <workItem from="1539016170955" duration="354000" />
       <workItem from="1539097334868" duration="1028000" />
-      <workItem from="1539102357118" duration="11678000" />
+      <workItem from="1539102357118" duration="13732000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PeopleTest_addTest - 2018.10.09 at 15h 55m 36s.xml">
-      <configuration name="PeopleTest.addTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PeopleTest_addTest - 2018.10.09 at 15h 55m 44s.xml">
-      <configuration name="PeopleTest.addTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PeopleTest_removeTest - 2018.10.09 at 15h 57m 08s.xml">
-      <configuration name="PeopleTest.removeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PeopleTest_getCountTest - 2018.10.09 at 15h 58m 11s.xml">
       <configuration name="PeopleTest.getCountTest" configurationId="JUnit" />
     </history-entry>
@@ -342,15 +364,24 @@
     <history-entry file="LearnerTest_learnerTest - 2018.10.10 at 12h 12m 53s.xml">
       <configuration name="LearnerTest.learnerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest_testInheritance - 2018.10.10 at 13h 15m 57s.xml">
+      <configuration name="StudentTest.testInheritance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_learnerTest - 2018.10.10 at 13h 18m 27s.xml">
+      <configuration name="StudentTest.learnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InstructorTest - 2018.10.10 at 13h 23m 33s.xml">
+      <configuration name="InstructorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13060000" />
+    <option name="totallyTimeSpent" value="15114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23557048" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23557048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,7 +391,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3319149" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3319149" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,33 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/peoplecomp/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/peoplecomp/Learner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -455,20 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InstructorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,16 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TeacherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/peoplecomp/People.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -512,24 +492,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LearnerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PeopleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/peoplecomp/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PeopleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/LearnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TeacherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InstructorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
           </folding>
         </state>
       </provider>
