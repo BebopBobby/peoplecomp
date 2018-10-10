@@ -1,5 +1,5 @@
 package peoplecomp;
 
 public interface Learner {
-    void learn(double numberOfHours);
+    double learn(double numberOfHours);
 }

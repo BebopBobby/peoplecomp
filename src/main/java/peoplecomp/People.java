@@ -16,7 +16,6 @@ public class People {
         for (Person person : personList) {
             if (person.getId() == id) {
                 System.out.println(person);
-
             }
         }
     }
